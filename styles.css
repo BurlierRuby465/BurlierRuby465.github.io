@@ -1,0 +1,154 @@
+body {
+    background-color:white;
+    font-family: arial;
+    font-size: 20pt;
+    line-height:1.5;
+    text-align: justify;
+    color: black
+    
+}
+.container{
+    width:50%;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 160px;
+
+
+}
+
+h2{
+    color:blue;
+}
+header{
+    background:purple;
+    color: yellow;
+    min-height:20px;
+    margin:20px;
+    font-size: 23pt;
+    text-align: left;
+    position: sticky;
+    top: 0.25rem;
+    
+    
+    
+}
+
+.highglight{
+    color:purple;
+    font width: bold;
+}
+
+header li{
+    display: inline;
+     font-size: 20pt;
+     text-align: right;
+   
+}
+
+header a{
+    text-decoration:none;
+    color: white;
+    text-align: left;
+    
+}
+header a:hover{
+    font-weight: bold;
+    color:white;
+    
+}
+
+footer a: hover{
+    font-weight: bold;
+    color:blue;
+    
+}
+
+
+#footer li{
+    list-style-type: none;
+}
+
+#main{
+    text-align: left;
+}
+
+#sidebar{
+    float: right;
+    width:30%;
+    margin-bottom:40px;
+    margin-right:20px;
+   
+}
+
+.dark{
+    padding:30px;
+    background:purple;
+    color:black;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+#sidebar2{
+    float:right;
+    margin-bottom:50px;
+    margin-right:50px;
+    margin-top: 20px;
+     height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+   
+    
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    text-align: justify;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 20pt; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+#lakers{
+    width: 100%
+}
+
+#main li{
+    list-style-type: none;
+    text-align: right;
+}
+
+
+
+
+header h1, nav .hat{
+    float:none;
+}

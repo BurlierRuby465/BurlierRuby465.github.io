@@ -1,0 +1,72 @@
+body {
+    background-color:black;
+    font-family: arial;
+    font-size: 10px;
+    line-height:1.5;
+    text-align: justify;
+    color: rgb(255,255,255)
+    
+}
+.container{
+    width:50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h2{
+    color:blue;
+}
+
+header{
+    background:white;
+    color: black;
+    min-height:20px;
+    margin:20px;
+    
+    
+}
+
+nav{
+    float:right;
+    margin-top: 20px;
+}
+
+header li{
+    display: inline;
+     font-size: 20px;
+   
+}
+
+header a{
+    text-decoration:none;
+    color: lime;
+    
+}
+
+#showcase{
+    background:url(healthy_fruits.jpg) no-repeat -150px -20px;
+    min-height: 500px;
+    max-height: 600px;
+    width: 40%;
+}
+
+#showcase h1{
+    width: 40%;
+    margin:auto;
+    text-align: center;
+     color:white;
+    font-size:40%;
+}
+
+#showcase p{
+    width: 40%;
+    margin:auto;
+}
+
+#footer li{
+    list-style-type: none;
+}
+
+#Healthy fruits{
+    width: 100%
+}
