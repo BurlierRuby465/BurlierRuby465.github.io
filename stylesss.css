@@ -1,10 +1,10 @@
 body {
-    background-color:white;
+    background-color:black;
     font-family: arial;
     font-size: 20pt;
     line-height:1.5;
     text-align: justify;
-    color: black
+    color: white
     
 }
 .container{
@@ -22,7 +22,7 @@ h2{
 
 header{
     background:black;
-    color: yellow;
+    color: white;
     min-height:20px;
     margin:20px;
     font-size: 23pt;
@@ -47,7 +47,7 @@ header a{
 
 header a:hover{
     font-weight: bold;
-    color:white;
+    color:yellow;
     
 }
 
@@ -154,6 +154,10 @@ footer{
 
 #third{
     text-align: right
+}
+
+#test{
+    font-weight: bold!important
 }
 
 
