@@ -47,7 +47,8 @@ header a{
 
 header a:hover{
     font-weight: bold;
-    color:yellow;
+    color:yellow;/*yellow when hovering*/
+    
     
 }
 
